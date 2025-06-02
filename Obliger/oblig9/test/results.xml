@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1715615739" />
+    <testcase name="main_test" classname="tb_grayscale" file="/mnt/c/Users/Thisa/OneDrive/Documents/Bachelor-emner/6-semester/IN3160/Obliger/oblig9/test/tb_grayscale.py" lineno="107" time="2.5333149433135986" sim_time_ns="30420.000001" ratio_time="12007.981905799035">
+      <failure message="Test failed with RANDOM_SEED=1715615739" />
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1715595549" />
+    <testcase name="main_test" classname="tb_spi_top" file="/mnt/c/Users/Thisa/OneDrive/Documents/Bachelor-emner/6-semester/IN3160/Eksamensøving/2020/test/tb_spi_top.py" lineno="35" time="0.007165193557739258" sim_time_ns="220.000001" ratio_time="30703.985764958707">
+      <failure message="Test failed with RANDOM_SEED=1715595549" />
+    </testcase>
+  </testsuite>
+</testsuites>

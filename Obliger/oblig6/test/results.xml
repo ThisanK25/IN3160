@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1711892587" />
+    <testcase name="main_test" classname="tb_self_test_unit" file="/mnt/c/Users/Thisa/OneDrive/Documents/Bachelor-emner/6-semester/IN3160/oblig6/test/tb_self_test_unit.py" lineno="10" time="0.020249605178833008" sim_time_ns="2560.000001" ratio_time="126422.21803297073" />
+  </testsuite>
+</testsuites>

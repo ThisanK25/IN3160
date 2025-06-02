@@ -1,0 +1,9 @@
+Task 1:
+
+1. a + b gives a maximum of 9 bits.
+
+2. a*b gives a maximum of 16 bits.
+
+3. a + b + c gives a maximum of 10 bits.
+
+4. (a + b + c + d)*e gives a maximum of 18 bits.

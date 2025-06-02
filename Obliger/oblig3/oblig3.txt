@@ -1,0 +1,22 @@
+IN3160 Oblig 3
+
+a.  The output is updated after 400ns, 200ns after indata is set.
+    The delay is caused by the intermediate signals, b and c, being updated after each next rising edge on mclk,
+    since the value of a signal changes when the process has ended. These signals are set by variables v1 and v2,
+    which update immediately in a process.
+
+b.  1.  outdata is now updated after 700ns and 800ns, with a 400ns delay after each indata update. 
+    2.  The output delay doubled because I turned v1 and v2 into signals, which adds two extra 100ns delays.
+    3.  Since reset is turned off when starting the simulation and clk starts high, instead of rising,
+        every signal and outdata is not set at start, and are therefore latched.
+
+c.  1.  output(7 downto 6) and output(3 downto 2) are both decided by signals sig1 and sig2, which are in turn decided by variables var1 and var2.
+        Since a signal's value is set after a process has ended, it will be given the latest value of a variable, so sig1 is ultimately set
+        to indata and sig2 to not indata, so that output(3 downto 2) and output(7 downto 6) will have the same values ("01" or "10").
+    2.  output(5 downto 4) and output(1 downto 0) are both decided by variables var1 and var2, which update immediately in a process.
+        After output(1 downto 0) is set, var1 and var2 are inverted and output(5 downto 4) is set to those, which always makes these values
+        different form each other ("00" and "11").
+
+d.  Since sig1 and sig2 are removed from the sensitivity list, the output signal bits determined by these signals (7 downto 6, 3 downto 2) will not 
+    update immediately, resulting in the output signal bits being latched initially. They are not updated until when the input signal is changed, 
+    and be delayed compared to the rest of the output bits.

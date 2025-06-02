@@ -1,0 +1,11 @@
+a) I used a modified version of the ROM code from assignment 6, with the main change being that RON values are read from an external file "ROM_data_bits.txt".
+
+b) The implementation of the PWM from the state diagram was mostly straightforward, but the most difficult part was using a counter to determine the pulse length.
+
+c) Both the vhdl codes and testbench were easy to make.
+
+d) The quadrature decoder was easy to make and the testbench was not challenging to make.
+
+e) I modified the seg7ctrl from assignment 6 slightly, making velocity an input and turning d0 and d1 to internal signals.
+
+Every component worked the way they were intended.

@@ -1,0 +1,5 @@
+Task 2:
+
+c. N + 2 flip-flops are used.
+
+e. 7*N + 3 flip-flops are used.

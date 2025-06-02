@@ -1,0 +1,7 @@
+*.ghw
+.Xil
+*.log
+*.jou
+*.zip
+__pycache__
+sim_build
