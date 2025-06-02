@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1712834743" />
-    <testcase name="main_test" classname="tb_pwm" file="/mnt/c/Users/Thisa/OneDrive/Documents/Bachelor-emner/6-semester/IN3160/oblig8/tb/tb_pwm.py" lineno="201" time="60.125534772872925" sim_time_ns="2961300.000001" ratio_time="49251.95278823634" />
-  </testsuite>
-</testsuites>

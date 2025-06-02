@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1706957235" />
-    <testcase name="main_test" classname="tb_delay" file="/mnt/c/Users/Thisa/OneDrive/Documents/Bachelor-emner/6-semester/IN3160/oblig3/test/tb_delay.py" lineno="5" time="0.006891965866088867" sim_time_ns="900.000001" ratio_time="130586.83378400747" />
-  </testsuite>
-</testsuites>

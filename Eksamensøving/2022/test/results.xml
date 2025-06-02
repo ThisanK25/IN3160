@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1717442682" />
-    <testcase name="main_test" classname="tb_fsm" file="/mnt/c/Users/Thisa/OneDrive/Documents/Bachelor-emner/6-semester/IN3160/Eksamensøving/2022/test/tb_fsm.py" lineno="46" time="0.011759281158447266" sim_time_ns="510.000001" ratio_time="43369.99805754641" />
-  </testsuite>
-</testsuites>
